@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8) url(images/Cover_anni40-50_1920x800.jpg) no-repeat center;
+    background-blend-mode: hue;
+    background-size: cover;
+}
+
+.wrap {
+    width: 100%;
+    height: 100vh;
+}
+
+.wrap header {
+    height: 100px;
+    width: 100%;
+    padding-top: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+}
+
+.wrap header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap header .container .logo {
+    width: 150px;
+}
+
+.wrap header .container .logo a {}
+
+.wrap header .container .logo img {
+    width: 100%;
+}
+
+.wrap header .container .menu_list {}
+
+.wrap header .container .menu_list ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap header .container .menu_list ul li {}
+
+.wrap header .container .menu_list ul li a {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wrap header .container .search {}
+
+.wrap header .container .search i {
+    font-size: 15px;
+    color: green;
+}
+
+.main01 {
+    margin-top: 5%;
+}
+
+.main01 .slider {}
+
+.main01 .slider .slick-slide {
+    display: flex;
+    overflow: hidden;
+}
+
+
+div .leftarea {
+    width: 50%;
+    position: relative;
+}
+
+div .leftarea .main_image {
+    width: 120%;
+    padding-top: 160px;
+}
+
+div .leftarea .main_image img {
+    width: 100%;
+}
+
+div .main_title {
+    position: absolute;
+    left:0;
+    top: 50px;
+    z-index:-1;
+}
+
+div .main_title h2 {
+    font-size: 100px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+div .main_title p {
+    font-size: 30px;
+    color: #999;
+    letter-spacing: 19px;
+}
+
+.rightarea{
+    width: 50%;
+    position: relative;
+}
+.rightarea .detailimg{
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 18%;
+    justify-content: space-between;
+}
+.rightarea .detailimg div{
+    overflow: hidden;
+    width: 20%;
+    border-radius: 50%;
+    margin-right: 8%;
+}
+.rightarea .detailimg div img{
+    width: 100%;
+}
